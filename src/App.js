@@ -8,10 +8,7 @@ function App() {
     confirmPassword: "",
     okayToEmail: true,
   });
-  console.log(formData.email);
-  console.log(formData.password);
-  console.log(formData.confirmPassword);
-  // console.log(formData);
+  
   const handleChange = (event) => {
     const { name, value, type, checked } = event.target;
     setFormData((prevFormData) => {
